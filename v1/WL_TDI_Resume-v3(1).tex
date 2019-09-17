@@ -1,0 +1,219 @@
+
+\documentclass[11.5pt,a4paper]{article}
+\usepackage{scrextend}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage{enumitem}
+\usepackage{cleveref}[2012/02/15]
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+%\usepackage{nohyperref}
+%\usepackage[hidelinks]{url}
+\renewcommand{\baselinestretch}{1.10} 
+\setlist[itemize]{noitemsep, topsep=0pt}
+\usepackage{titling}
+\usepackage{sectsty}
+\usepackage{amsmath}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\sectionfont{\fontsize{12}{15}\selectfont}
+
+\pagenumbering{gobble}
+
+\setlength{\droptitle}{-0.75In}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%\title{\textbf{William E. Lewis}}
+%\date{}
+%\setlength{\droptitle}{-6.5em}
+\begin{document}
+%\maketitle
+%\vspace{-6.7em}
+\hspace*{-\parindent}%
+\begin{minipage}{0.75\textwidth}
+
+\begin{flushleft}
+\noindent {\large \textbf{William E. Lewis}}\\
+%LinkedIn: \url{https://www.linkedin.com/in/william-lewis-a2a106a2/}
+Email: willeslewis@gmail.com\\
+%\noindent Website: https://sites.google.com/colorado.edu/william-lewis
+\end{flushleft}
+\end{minipage}%
+\hfill \hspace{1em}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft}
+Phone: 501-680-1310
+\vspace{-1.25em}
+ \end{flushleft}
+\end{minipage} \\
+\vspace{-1.65em}
+
+\section*{Key Skills and Highlights}
+\vspace{-1.75em}
+\noindent\rule{\textwidth}{0.4pt}\\
+\vspace{-0.7em}
+\phantom{.}\\
+\begin{tabular}{L{2.5cm}|p{13.75cm}}
+ \noindent \hspace{-0.15cm}\textbf{Programming}& \textit{Python} (pandas, matplotlib, bokeh, beautifulsoup, scikit-learn, tensorflow, keras), Spark, SQL, and Git. Prior experience with \textit{MATLAB}, \textit{R}, \textit{Mathematica} and \textit{C$++$}\\\multicolumn{2}{c}{} \\
+ \noindent \hspace{-0.15cm}\textbf{Data Science} & Web scraping, cleaning data, exploratory analysis, data transformation (standard-normal scaling, t-SNE, SVD, PCA),  image/time-series analysis, data visualization, dashboard maintenance, statistical inference (A/B, ANOVA), regression and classification models (k-means, GLMs, boosted trees), deep learning (ANN, CNN, RNN architectures) \\\multicolumn{2}{c}{}\\
+\noindent \hspace{-0.15cm}\textbf{Mathematics} &  Bayesian statistics, matrix factorization, eigenvector/eigenvalue problems, convolution, fast Fourier transforms, short-time Fourier transforms, Monte-Carlo\\\multicolumn{2}{c}{} \\
+\noindent \hspace{-0.15cm}\textbf{Achievements}& National Barry M. Goldwater Scholarship (2011)\\
+& 5 peer-reviewed publications in 3 distinct subfields\\
+& 5 oral presentations: 3 national conferences, 1 international conference, 1 colloquium\\\multicolumn{2}{c}{}\\
+\noindent \hspace{-0.15cm}\textbf{Other} & Experience working within the Agile framework Scrum\\
+&  Code review and unit tests for python and SQL code\\
+& Individual and collaborative research with up to 5 team members\\
+& Mentorship of 2 undergraduate research students \\\multicolumn{2}{c}{}\\
+\end{tabular}
+
+\vspace{-2.25em}
+
+\section*{Education}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}\\
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Ph.D. Physics} University of Colorado \dotfill May 2018\\
+\indent - \textit{Strongly Interacting Fermi Gases: Hydrodynamics and Beyond}\\
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Data Science Fellow} The Data Incubator \dotfill February 2018\\
+\indent - \textit{Churn Prediction in Music Streaming Subscriptions}\\
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{..}\textbf{M.S. Physics} University of Colorado \dotfill August 2015\\
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{..}\textbf{B.S. Mathematics, Physics \textit{Summa Cum Laude}} University of Arkansas \dotfill May 2012\\
+\indent - \textit{Polarization and propagation characteristics of cylindrical vector beams}\\
+
+\vspace{-2.25em}
+
+
+\section*{Work Experience}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Data Analyst at Jana Mobile} \dotfill March 2018 - Present \\
+\indent - Identified assumptions of A/B tests were too restrictive thereby discovering $\mathcal{O}(\$1000)$ per day savings\\
+\indent - Utilized terabytes of high-dimensional data in analyses and feature engineering for predictive models\\
+\indent - Prototyped a gradient boosted tree model to predict if online purchases would be returned\\
+
+\vspace{-2.25em}
+
+
+\section*{Research Vignettes}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Fluid dynamics in quantum gases} \dotfill May 2015 - December 2017 \\
+\indent - Utilized MLE in \textit{Python} to fit models to fluid simulation data using AIC for model selection\\
+\indent - Reduced data output size from $\mathcal{O}($1GB$)$ to $\mathcal{O}($10kB$)$ in \textit{C++} Lattice Boltzmann simulations \\
+\indent - Worked with analytical and numerical methods of fluid dynamics \\
+\indent - Made experimentally verifiable predictions for novel dynamics \\
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Nano-imaging and spectroscopy} \dotfill July 2012 - May 2015\\
+\indent - Applied WMA to characterize statistical properties of laser fluctuations in \textit{MATLAB} \\
+\indent - Conducted short-time Fourier analysis of time-series data using \textit{MATLAB}\\
+\indent - Fit regression models to experimental data in \textit{MATLAB}\\
+%\vspace{-2.25em}
+\vspace{-0.75em}
+\phantom{.}\\
+\phantom{.} \textbf{Polarization Structure of Laser Light} \dotfill January 2010 - May 2012\\
+\indent - Engineered features to intuitively describe properties of a thirteen-dimensional data set\\
+\indent - Related theoretical results to experimentally measurable quantities (e.g. laser power)
+%\vspace{-1.0em}
+\section*{Additional Activities}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{-0.9em}
+\phantom{.}\\
+\noindent
+\phantom{.} \textbf{Deep learning specialization} \dotfill October 2018\\
+\indent - Deeplearning.ai Coursera 5 course specialization with weekly python programming assignments\\
+\indent - Deep neural networks for image and time-series data (\textit{e.g.} YOLO, VNN, LSTM, Attention Networks) \\
+\vspace{-0.9em}
+\phantom{.}\\
+\phantom{.} \textbf{Board gaming and data science}\\
+\indent - Own a library of about 50 board games and enjoy organizing weekly game nights\\
+\indent - Scraped comments and ratings of more than 500 games on \textit{boardgamegeek.com}\\
+\indent - Coded a collaborative filtering based recommendation algorithm in python using scraped ratings\\
+\vspace{-0.9em}
+\phantom{.}\\
+\phantom{.} \textbf{Data Rescue Boston} \dotfill February 2017\\
+\indent - Volunteer hackathon hosted at MIT for preserving data from U.S. government web pages\\
+\indent - Developed web scraping scripts in python with selenium and requests to scrape pdfs and parse html/xml\\
+\vspace{-2.25em}
+\section*{Publications}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{-0.9em}
+\phantom{.}\\
+\noindent
+- \textbf{W.E. Lewis} and P. Romatschke, ``Higher-harmonic collective modes of trapped gases from second-order hydrodynamics.'' New J. Phys. \textbf{19} 023042 (2017).\\
+- H. Bantilan, J.T. Brewer, T. Ishii, \textbf{W.E. Lewis}, and P. Romatschke, ``String-theory-based predictions for nonhydrodynamic collective modes in strongly interacting Fermi gases." \textit{Phys. Rev. A} \textbf{94}, 033621 (2016).\\
+- B.T. O'Callahan, \textbf{W.E. Lewis}, S. M\"{o}bius, J.C. Stanley, E.A. Muller, and M.B. Raschke, ``Broadband infrared vibrational spectroscopy using thermal blackbody radiation." 
+\textit{ Opt. Exp.} \textbf{23}, 032063 (2015). \\
+- \textbf{W.E. Lewis} and R. Vyas, ``Maxwell-Gaussian beams with cylindrical polarization."
+\textit{J. Opt. Soc. Am. A} \textbf{31}, 1595 (2014). \\
+- B.T. O'Callahan, \textbf{W.E. Lewis}, A.C. Jones, and M.B. Raschke, ``Spectral frustration and spatial coherence in thermal near-field spectroscopy." \textit{ Phys. Rev. B} \textbf{89}, 245446  (2014). \\
+\vspace{-2.25em}
+\section*{Presentations}
+\vspace{-1.85em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{-0.9em}
+\phantom{.}\\
+\noindent
+- \textbf{W.E. Lewis} and P. Romatschke, ``Collective modes of a trapped gas from second-order hydrodynamics.'' APS March Meeting, New Orleans, LA (2017).\\
+- \textbf{W.E. Lewis}, B.T. O'Callahan, A. Jones, and M.B. Raschke, ``Spectral frustration and spatial coherence in thermal near-field spectroscopy
+.'' Near-Field Optics, Snowbird, UT (2014).\\ 
+- \textbf{W.E. Lewis}, B.T. O'Callahan, A. Jones, and M.B. Raschke, ``Thermal infrared near-field spectroscopy: spectroscopy of the resonant enhancement of the local electromagnetic density of states.'' APS Four Corners, Denver, CO (2014).\\ 
+- \textbf{W.E. Lewis}, R. Vyas, and S. Singh, ``Cylindrically polarized solutions of paraxial Maxwell's equations.'' Frontiers in Optics, San Jose, CA (2011). \\
+- Invited: \textbf{W.E. Lewis}, ``Cylindrical vector beams: ensuring Maxwell's equations hold.'' University of Arkansas Sigma Pi Sigma Induction Ceremony, Fayetteville, AR (2011).\\
+- \textbf{W.E. Lewis}, R. Vyas, S. Singh,``Generating cylindrically polarized Laguerre-Gauss beams interferometrically: An experiment proposal.''  INBRE conference, Fayetteville, AR (2011) (poster).\\
+- \textbf{W.E. Lewis}, R.Vyas, and S. Singh, ``Bessel-Gauss beams with radial and azimuthal polarization.'' Frontiers in Optics, Rochester, NY (2010) (poster).\\
+- \textbf{W.E. Lewis}, R.Vyas, and S. Singh, ``Bessel-Gauss beams with radial and azimuthal polarization.'' INBRE conference, Fayetteville, AR (2010) (poster).\\
+\vspace{-1.75em}
+%\section*{Awards and Honors}
+%\vspace{-1.85em}
+%\noindent\rule{\textwidth}{0.4pt}
+%\vspace{-0.9em}
+%\phantom{.}\\
+%\noindent
+%- University of Colorado Graduate School Domestic Travel Grant \dotfill 2017\\
+%- National Barry M. Goldwater Scholarship \dotfill 2011-2012 \\
+%- University of Arkansas Dept. of Physics George D. Lingelbach Outstanding Senior Award \dotfill 2011-2012\\
+%- University of Arkansas Ellen and Gary Cleveland Scholarship \dotfill 2011-2012 \\
+%- National Society of Physics Students Outstanding Leadership Scholarship \dotfill 2011-2012\\
+%- University of Arkansas Dept. of Mathematics Lawrence Jesser Toll, Jr. Endowed Scholarship\dotfill 2011-2012\\
+%- University of Arkansas Dept. of Physics Robert D. Maurer Fellowship \dotfill 2011-2012\\
+%- Inducted into the National Honors Society Phi Beta Kappa \dotfill 2011\\
+%- Inducted into the Physics Honors Society Sigma Pi Sigma \dotfill 2011\\
+%- Arkansas Dept. of Higher Ed. Student Undergraduate Research Fellowship \dotfill 2011\\
+%- University of Arkansas Chancellor's Scholarship\dotfill 2007-2011\\
+%- Arkansas Dept. of Higher Ed. Governor's Distinguished Scholarship \dotfill 2007-2011\\
+%\vspace{-1.75em}
+%\section*{Teaching Experience}
+%\vspace{-1.85em}
+%\noindent\rule{\textwidth}{0.4pt}
+%\vspace{-0.75em}
+%\phantom{.}\\
+%\phantom{.} \textbf{Teaching Assistant: Depts. of Physics and Chemistry University of Colorado} \dotfill 2012 - 2017\\
+%\indent - Conducted introductory physics chemistry lab courses with class sizes ranging from about 10-30 students.\\ 
+%\indent - Had contact with about 500 students in the course of 5 years of teaching.\\
+%\indent - Lectured an advanced undergraduate optics course with about 20 students three times.\\
+%\phantom{.} \textbf{Learning Assistant and Tutor: University of Arkansas} \dotfill 2008 - 2012\\
+%\indent - Tutored mathematics and physics courses ranging from introductory to advanced level.\\ 
+%\indent - Had contact with about 100 students in the course of 4 years of tutoring.\\
+%\indent - 1 semester undergraduate learning assistant in an introductory physics lab of about 20 students.\\
+
+
+\end{document}
