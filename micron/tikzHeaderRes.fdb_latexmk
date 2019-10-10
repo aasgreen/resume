@@ -1,5 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1570117112 "tikzHeaderRes.tex" "tikzHeaderRes.pdf" "tikzHeaderRes" 1570117140
+["bibtex tikzHeaderRes"] 1570747571 "tikzHeaderRes.aux" "tikzHeaderRes.bbl" "tikzHeaderRes" 1570747575
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1480098433 24635 604dafcc79f521a11ea73e506e1fbd98 ""
+  "Self.bib" 0 -1 0 ""
+  "tikzHeaderRes.aux" 1570747574 317 24fe59af836fe10f23523ba1b819b051 ""
+  "tikzHeaderRes.bcf" 0 -1 0 ""
+  (generated)
+  "tikzHeaderRes.bbl"
+["pdflatex"] 1570747571 "tikzHeaderRes.tex" "tikzHeaderRes.pdf" "tikzHeaderRes" 1570747575
   "/etc/texmf/web2c/texmf.cnf" 1568224573 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -108,6 +115,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty" 1516054892 71031 8c1efead07338247d562f79303165b66 ""
   "/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg" 1516054892 22870 180ea2dc1e81d6b0ff570aa0250865ae ""
   "/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty" 1480098835 3878 6aa7c08ff2621006e0603349e40a30a8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty" 1480098835 3400 e000bb2fc43fc077e107f62f8c25613e ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1480098837 1197 8a80cdde14696a9198f1793a55dcf332 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty" 1480098837 410 5bf12ea7330e5f12c445332a4fe9a263 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty" 1480098837 21115 facf03b7dbe5ea2f5f1dce1ac84b5d05 ""
@@ -126,9 +134,10 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1569518797 3709221 088ac62ff4f003b6f9a6465b9534775c ""
-  "tikzHeaderRes.aux" 1570117138 87 38e3e538ad9897e183bd7b90834893f1 ""
-  "tikzHeaderRes.tex" 1570117103 8036 1330e3d0ddd20070a13e237ad978e596 ""
+  "tikzHeaderRes.aux" 1570747574 317 24fe59af836fe10f23523ba1b819b051 ""
+  "tikzHeaderRes.bbl" 0 -1 0 "bibtex tikzHeaderRes"
+  "tikzHeaderRes.tex" 1570747569 8818 0839375357226656d142f6df2f7c6167 ""
   (generated)
+  "tikzHeaderRes.log"
   "tikzHeaderRes.pdf"
   "tikzHeaderRes.aux"
-  "tikzHeaderRes.log"

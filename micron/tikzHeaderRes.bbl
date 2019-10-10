@@ -1,0 +1,45 @@
+\begin{thebibliography}{}
+
+\bibitem[Davidsen and Green, 2011]{davidsen_are_2011}
+Davidsen, J. and Green, A. (2011).
+\newblock Are {Earthquake} {Magnitudes} {Clustered}?
+\newblock {\em Phys. Rev. Lett.}, 106(10):108502.
+
+\bibitem[Green et~al., 2019a]{green_chiral_2019}
+Green, A.~A., Tuchband, M.~R., Shao, R., Shen, Y., Visvanathan, R., Duncan,
+  A.~E., Lehmann, A., Tschierske, C., Carlson, E.~D., Guzman, E., Kolber, M.,
+  Walba, D.~M., Park, C.~S., Glaser, M.~A., Maclennan, J.~E., and Clark, N.~A.
+  (2019a).
+\newblock Chiral {Incommensurate} {Helical} {Phase} in a {Smectic} of {Achiral}
+  {Bent}-{Core} {Mesogens}.
+\newblock {\em Phys. Rev. Lett.}, 122(10):107801.
+
+\bibitem[Green et~al., 2019b]{green_gas_2019}
+Green, A. A.~S., Dutch, E., Qi, Z., Briggs, C., Park, C.~S., Glaser, M.~A.,
+  Maclennan, J.~E., and Clark, N.~A. (2019b).
+\newblock A gas flow meter with linear sensitivity based on freely-suspended
+  nanofilms of smectic liquid crystal.
+\newblock {\em Appl. Phys. Lett.}, 114(16):163705.
+
+\bibitem[Heshami et~al., 2012]{heshami_controllable-dipole_2012}
+Heshami, K., Green, A., Han, Y., Rispe, A., Saglamyurek, E., Sinclair, N.,
+  Tittel, W., and Simon, C. (2012).
+\newblock Controllable-dipole quantum memory.
+\newblock {\em Phys. Rev. A}, 86(1):013813.
+
+\bibitem[Loh et~al., 2015]{loh_dual-microcavity_2015}
+Loh, W., Green, A. A.~S., Baynes, F.~N., Cole, D.~C., Quinlan, F.~J., Lee, H.,
+  Vahala, K.~J., Papp, S.~B., and Diddams, S.~A. (2015).
+\newblock Dual-microcavity narrow-linewidth {Brillouin} laser.
+\newblock {\em Optica, OPTICA}, 2(3):225--232.
+
+\bibitem[Minor et~al., 2019]{minor_end--end_2019}
+Minor, E.~N., Howard, S.~D., Green, A. A.~S., Park, C.~S., and Clark, N.~A.
+  (2019).
+\newblock End-to-{End} {Machine} {Learning} for {Experimental} {Physics}:
+  {Using} {Simulated} {Data} to {Train} a {Neural} {Network} for {Object}
+  {Detection} in {Video} {Microscopy}.
+\newblock {\em arXiv:1908.05271 [cond-mat]}.
+\newblock arXiv: 1908.05271.
+
+\end{thebibliography}

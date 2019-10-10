@@ -4,23 +4,23 @@
 \documentclass[12pt, a4paper]{scrartcl}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\usepackage{bibentry}
 
 \usepackage{xcolor}
 \definecolor{green}{HTML}{A7E22E}
 \definecolor{darkgray}{HTML}{333333}
 
 
-\newcommand{\header}[4]{%
+\newcommand{\header}[5]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=green, anchor=north, minimum width=\paperwidth,
         minimum height=3cm] (box) at (current page.north){};
     \node [left = 9.5 of box, anchor = west] (name) at (box){%
       \fontsize{40pt}{65pt}%
-      {\sffamily \huge #1}{\sffamily \textbf{\huge #2}}
-    };
+      {\sffamily \huge #1}{\sffamily \textbf{\huge #2}}{\sffamily\huge , PhD} };
 \coordinate [below = .5 of name.mid] (c);
 \node [left = 3.65 of box,anchor = west] (sub) at (c){%
-            {\sffamily#3 } | { \sffamily #4}
+            {\sffamily#3 } | { \sffamily #4} | { \sffamily #5 }
         };
   \end{tikzpicture}
   \vspace{.3cm}
@@ -54,7 +54,11 @@ BoldFont = OpenSans-Bold ]
 
 %\setlength{\droptitle}{-0.75In}
 \begin{document} 
-\header{Adam A.S. }{Green}{adam.aagen.green@gmail.com}{(720) 278-5986}
+
+\nobibliography{Self}
+\bibliographystyle{apalike}
+\header{Adam A.S. }{Green}{adam.aagen.green@gmail.com}{(720)
+278-5986}{www.linkedin.com/in/adamasgreen}
 %\hspace*{-\parindent}
 %\begin{minipage}{0.75\textwidth}
 %    \begin{flushleft}
@@ -75,19 +79,24 @@ BoldFont = OpenSans-Bold ]
 \section*{Key Skills and Highlights}          
 \vspace{-.1in}
 \noindent \begin{tabular}{@{}l p{.8\textwidth}}\\
+    Research & Developed integrated hardware and software measurement
+    platforms to image fast-time dynamics of condensed matter systems;
+    Skilled scientific writer and communicator;
+            Experienced interdisciplinary and international collaborator;
+            Mentorship and supervision of 4 undergraduate research students;
+            Experience as both team leader and contributor\\ \\
         Programming& \textit{Python} (pandas, matplotlib, numpy,
         scipy, trackpy), \textit{FORTRAN} (lapack), \textit{Mathematica},
-    \textit{openFOAM}, \LaTeX \\ \\
-            Mathematics & Eigenvalue and eigenvector problems, spatial defect
-            tracking, Brownian/stochastic motion, perturbation
-            analysis, electro-optic behaviour of soft matter systems\\\\
-            Communication & Skilled scientific writer and communicator, experienced
-    interdisciplinary and international collaborator, mentorship and supervision
-    of 4 undergraduate research students\\\\
+    \textit{openFOAM}, \LaTeX, SQL, git\\ \\
+%            Mathematics & Eigenvalue and eigenvector problems;
+%            Brownian/stochastic analysis and statistics; Perturbation
+%            analysis; Light propagation in soft-matter,
+%            Fourier analysis\\\\
             Achievements & First place in 2017 NSF MRSEC Center \textit{Science Slam}
     (3-minute scientific presentation competition), 4 peer-reviewed publications
-    in 4 distinct subfields, Poster presentation at the International Liquid Crystal
-    Conference, Oral presentation at the Ferroelectric Liquid Crystal Conference
+    in 4 distinct subfields, Poster presentation at the International Liquid
+    Crystal (2017), Oral presentation at the Ferroelectric Liquid Crystal
+    Conference (2019)
 \end{tabular}
 
 
@@ -97,8 +106,9 @@ BoldFont = OpenSans-Bold ]
 %\begin{tabbing}
 %    \hspace{2.3in}\=\hspace{2.6in}\=\kill
    \noindent \textbf{Ph.D Physics}  University of Colorado Boulder \dotfill July 2019  \\        
-    \indent -{\itshape Liquid Crystal Phases and Dynamics: Correlations in the
-    2D XY Model, Helical Bannana Phases, and 2D Fluid Dynamics} \\
+    \indent -{\itshape Liquid and Crystal: The Applicability of the XY Model to
+        Experimental Systems of Two-Dimensional Topological Fluids; and
+    Revealing the Nanoscale Structure of the Bent-Core Alpha Phase} \\
     \vspace{-0.75em}
     \phantom{.}\\
 \noindent\textbf{M.S. Physics} University of Colorado Boulder \dotfill  May 2015
@@ -121,18 +131,19 @@ BoldFont = OpenSans-Bold ]
     p{.75\textwidth}}
 
        %\hspace{2.3in}\=\hspace{3in}\= \kill % set up two tab positions
-       \textbf{Graduate Researcher} &University of Colorado Boulder, CO, USA \dotfill 2015-Present\\
+       \textbf{Graduate Researcher} &University of Colorado Boulder, CO, USA
+       \dotfill 2015-2019\\
        % \> University of Colorado, Boulder, CO\\
    \end{tabular}\\
    %\vspace{-20pt}      % suppress blank line after tabbing
    %\hrule
    \begin{tabular}{p{.2\textwidth} p{.76\textwidth}}
-     Fluid Dynamics  & {\itshape Investigated the 2D fluid dynamics of freely-suspended liquid
-   crystals (published)} \\
+     Fluid Dynamics  & {\itshape Investigated and developed novel metrology
+         applications for liquid crystal fluids} \\
    Materials Science&{\itshape Discovered two new phases of matter using
-    electro-optical, X-ray techniques (published)} \\
+    electro-optical, X-ray techniques} \\
     Soft Matter& {\itshape Investigated the nucleation of topological
-defects in liquid crystal system}
+defects in liquid crystal system using classical and machine learning methods}
 \end{tabular}
 
     \vspace{10pt}
@@ -147,7 +158,7 @@ defects in liquid crystal system}
    %\hrule
    \begin{tabular}{ p{.2\textwidth} p{.76\textwidth}}
        Optics & {\itshape Designed and fabricated whispering gallery optical cavities for
-       laser frequency stabilization applications (published)}
+       laser frequency stabilization applications}
     \end{tabular}
 
     \vspace{10pt}
@@ -162,13 +173,22 @@ defects in liquid crystal system}
    %\hrule
    \begin{tabular}{ p{.2\textwidth} p{.79\textwidth}}
        Quantum Optics & {\itshape Designed an optimally efficient optical
-       quantum memory (published)}\\
+       quantum memory}\\
        Quantum Statistics & {\itshape Investigated statistical convergence
        of bosonic and fermionic systems}\\
        Complexity Science & {\itshape Studied the time and space correlations of
-       earthquake magnitudes (published) }
+       earthquake magnitudes}
 \end{tabular}
 
+\section*{Publications}
+\begin{itemize}
+    \item[] \bibentry{minor_end--end_2019}
+    \item[] \bibentry{green_gas_2019}
+    \item[] \bibentry{green_chiral_2019}
+    \item[] \bibentry{loh_dual-microcavity_2015}
+    \item[] \bibentry{heshami_controllable-dipole_2012}
+    \item[] \bibentry{davidsen_are_2011}
+\end{itemize}
 
  \section*{Hobbies and Interests}          
  \begin{itemize}
