@@ -1,13 +1,15 @@
 % LaTeX file for resume 
 % This file uses the resume document class (res.cls)
 
-\documentclass[11.5pt, a4paper]{article}
+\documentclass[14pt, a4paper]{article}
 \usepackage{tabulary,amsmath,booktabs,setspace,microtype}
-\usepackage[margin=.75in]{geometry}
+\usepackage[margin=.55in]{geometry}
 \renewcommand{\baselinestretch}{1.10} 
 
 \usepackage{sectsty}
 \usepackage{titling}
+\usepackage{xcolor}
+\definecolor{green}{HTML}{A7E22E}
 
 \pagenumbering{gobble}
 \sectionfont{\scshape\fontsize{14}{13}\selectfont}
@@ -17,13 +19,17 @@
 
 %\setlength{\droptitle}{-0.75In}
 \begin{document} 
-\hspace*{-\parindent}
-\begin{minipage}{0.75\textwidth}
+
+\begingroup
+\noindent \fboxsep=0pt\colorbox{green}{%
+\begin{minipage}{\linewidth}
     \begin{flushleft}
         \noindent {\huge \textbf{Adam A. S. Green}}\\
         adam.aagen.green@gmail.com -- (720) 278 5986\\
     \end{flushleft}
 \end{minipage}
+}
+\endgroup
 %\name{ADAM A S GREEN\\[12pt]}     % the \\[12pt] adds a blank
 				        % line after name      
 
