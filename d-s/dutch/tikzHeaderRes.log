@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.9.26)  7 OCT 2019 11:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.9.26)  14 OCT 2019 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,49 +1126,49 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 106--116
+Underfull \hbox (badness 10000) in paragraph at lines 105--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 128--146
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 127--145
 [] 
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 128--146
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 127--145
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 148--161
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 147--160
 []
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 148--161
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 147--160
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 163--180
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 162--179
 []
  []
 
 
-Overfull \hbox (19.10419pt too wide) in paragraph at lines 163--180
+Overfull \hbox (19.10419pt too wide) in paragraph at lines 162--179
 [] 
  []
 
 [1
 
 ]
-Overfull \hbox (21.97777pt too wide) in paragraph at lines 188--189
+Overfull \hbox (21.97777pt too wide) in paragraph at lines 187--188
 []\TU/EBGaramond-Regular(0)/m/n/12 Davidsen, J. and Green, A. (2011).  Are Eart
 hquake Magnitudes Clustered?  \TU/EBGaramond-Regular(0)/m/it/12 Phys. Rev. Lett
 .\TU/EBGaramond-Regular(0)/m/n/12 , 106(10):108502 
