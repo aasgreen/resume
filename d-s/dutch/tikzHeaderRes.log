@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.12)  14 NOV 2019 13:03
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.9.5)  3 DEC 2019 11:35
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tikzHeaderRes.tex
 (./tikzHeaderRes.tex
+<<<<<<< HEAD
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+=======
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2015/10/03 v3.19a KOMA-Script document class (article)
 
@@ -857,7 +866,11 @@ LaTeX Info: Redefining \- on input line 2746.
 . Defining command \liningnums with sig. 'm' on line 2845.
 .................................................
 ))
+<<<<<<< HEAD
 \g__fontspec_family_EBGaramond-Regular_int=\count164
+=======
+\g__fontspec_family_EBGaramond-Regular_int=\count288
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -878,11 +891,19 @@ LaTeX Info: Redefining \- on input line 2746.
 . 'italic' (m/it) with NFSS spec.:
 . <->"EBGaramond-Italic/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.:
+<<<<<<< HEAD
 . <->"EBGaramond-Italic/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"-
 . 'bold italic' (bx/it) with NFSS spec.:
 . <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+=======
+. <->"EBGaramond-Italic/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
 
 .................................................
 \g__fontspec_family_OpenSans-Regular_int=\count165
@@ -1062,46 +1083,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--120
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 127--145
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 127--146
 [] 
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 127--145
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 127--146
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 147--160
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 148--161
 []
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 147--160
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 148--161
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 162--179
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 163--180
 []
  []
 
 
-Overfull \hbox (19.10419pt too wide) in paragraph at lines 162--179
+Overfull \hbox (19.10419pt too wide) in paragraph at lines 163--180
 [] 
  []
 
 [1
 
 ]
+<<<<<<< HEAD
 Overfull \hbox (21.35246pt too wide) in paragraph at lines 187--188
 []\EU1/EBGaramond-Regular(0)/m/n/12 Davidsen, J. and Green, A. (2011).  Are Ear
 thquake Magnitudes Clustered?  \EU1/EBGaramond-Regular(0)/m/it/12 Phys. Rev. Le
 tt.\EU1/EBGaramond-Regular(0)/m/n/12 , 106(10):108502 
+=======
+Overfull \hbox (21.97777pt too wide) in paragraph at lines 188--189
+[]\TU/EBGaramond-Regular(0)/m/n/12 Davidsen, J. and Green, A. (2011).  Are Eart
+hquake Magnitudes Clustered?  \TU/EBGaramond-Regular(0)/m/it/12 Phys. Rev. Lett
+.\TU/EBGaramond-Regular(0)/m/n/12 , 106(10):108502 
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
  []
 
 [2] (./tikzHeaderRes.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  27730 strings out of 493638
  557196 string characters out of 6146795
  620222 words of memory out of 5000000
@@ -1109,5 +1138,14 @@ Here is how much of TeX's memory you used:
  7282 words of font info for 55 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  64i,11n,61p,10386b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ 25459 strings out of 494988
+ 545817 string characters out of 6178639
+ 710479 words of memory out of 5000000
+ 28975 multiletter control sequences out of 15000+600000
+ 533890 words of font info for 60 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 64i,11n,65p,10429b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> b9ca7180bca14e77f2b8cb09897bd0409ed88531
 
 Output written on tikzHeaderRes.pdf (2 pages).
