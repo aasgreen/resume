@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.9.26)  14 OCT 2019 11:22
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.9.5)  3 DEC 2019 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tikzHeaderRes.tex
 (./tikzHeaderRes.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -932,11 +932,6 @@ LaTeX Info: Redefining \- on input line 4015.
 ))
 \g__fontspec_family_EBGaramond-Regular_int=\count288
 .................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "EBGaramond-Italic/B" (it probably doesn't exist).
-.................................................
-.................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'EBGaramond-Regular(0)' created for font 'EBGaramond-Regular'
@@ -958,9 +953,10 @@ LaTeX Info: Redefining \- on input line 4015.
 . - 'italic small caps'  (m/itsc) with NFSS spec.:
 . <->"EBGaramond-Italic/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.:
-. <->"EBGaramond-Bold/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->"EBGaramond-Bold/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. <->"EBGaramond-Italic/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 43.
 \g__fontspec_family_OpenSans-Regular_int=\count289
@@ -1136,39 +1132,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--120
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 127--145
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 127--146
 [] 
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 127--145
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 127--146
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 147--160
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 148--161
 []
  []
 
 
-Overfull \hbox (4.43169pt too wide) in paragraph at lines 147--160
+Overfull \hbox (4.43169pt too wide) in paragraph at lines 148--161
 [] 
  []
 
 
-Overfull \hbox (5.99998pt too wide) in paragraph at lines 162--179
+Overfull \hbox (5.99998pt too wide) in paragraph at lines 163--180
 []
  []
 
 
-Overfull \hbox (19.10419pt too wide) in paragraph at lines 162--179
+Overfull \hbox (19.10419pt too wide) in paragraph at lines 163--180
 [] 
  []
 
 [1
 
 ]
-Overfull \hbox (21.97777pt too wide) in paragraph at lines 187--188
+Overfull \hbox (21.97777pt too wide) in paragraph at lines 188--189
 []\TU/EBGaramond-Regular(0)/m/n/12 Davidsen, J. and Green, A. (2011).  Are Eart
 hquake Magnitudes Clustered?  \TU/EBGaramond-Regular(0)/m/it/12 Phys. Rev. Lett
 .\TU/EBGaramond-Regular(0)/m/n/12 , 106(10):108502 
@@ -1176,12 +1172,12 @@ hquake Magnitudes Clustered?  \TU/EBGaramond-Regular(0)/m/it/12 Phys. Rev. Lett
 
 [2] (./tikzHeaderRes.aux) ) 
 Here is how much of TeX's memory you used:
- 25458 strings out of 493007
- 545800 string characters out of 6136719
- 715644 words of memory out of 5000000
- 29105 multiletter control sequences out of 15000+600000
- 533882 words of font info for 59 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
+ 25459 strings out of 494988
+ 545817 string characters out of 6178639
+ 710479 words of memory out of 5000000
+ 28975 multiletter control sequences out of 15000+600000
+ 533890 words of font info for 60 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
  64i,11n,65p,10429b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on tikzHeaderRes.pdf (2 pages).
