@@ -1,0 +1,217 @@
+% !TEX program = xelatex
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+\documentclass[12pt, a4paper]{scrartcl}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{bibentry}
+
+\usepackage{xcolor}
+\definecolor{green}{HTML}{A7E22E}
+\definecolor{darkgray}{HTML}{333333}
+
+
+\newcommand{\header}[5]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node [rectangle, fill=green, anchor=north, minimum width=\paperwidth,
+        minimum height=3cm] (box) at (current page.north){};
+    \node [left = 9.5 of box, anchor = west] (name) at (box){%
+      \fontsize{40pt}{65pt}%
+      {\sffamily \huge #1}{\sffamily \textbf{\huge #2}}
+    };
+\coordinate [below = .5 of name.mid] (c);
+\node [left = 3.65 of box,anchor = west] (sub) at (c){%
+            {\sffamily#3 } | { \sffamily #4} | { \sffamily #5 }
+        };
+  \end{tikzpicture}
+  \vspace{.3cm}
+  \vspace{-2\parskip}
+}
+\usepackage{tabulary,amsmath,booktabs,setspace,microtype}
+\usepackage[margin=.75in]{geometry}
+\renewcommand{\baselinestretch}{1.10} 
+
+%\usepackage{sectsty}
+\usepackage{titling}
+\usepackage{fontspec}
+\setmainfont{EBGaramond-Regular}[
+%%[%
+%%Extension = .ttf ,
+%%Path = /home/spencer/.local/share/fonts ,
+%SizeFeatures={Size=12},
+BoldFont = EBGaramond-Bold ,
+ItalicFont = EBGaramond-Italic ]
+%
+\setsansfont{OpenSans-Regular}[
+BoldFont = OpenSans-Bold ]
+
+\pagenumbering{gobble}
+%\sectionfont{\scshape\fontsize{14}{13}\selectfont}
+\setkomafont{disposition}{\bfseries \scshape \fontsize{14}{13} \selectfont}
+%\setkomafont{disposition}{\fontsize{14}{13} \sffamily \selectfont}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.9in} % increase text height to fit on 1-page 
+
+%\setlength{\droptitle}{-0.75In}
+\begin{document} 
+
+\nobibliography{Self}
+\bibliographystyle{apalike}
+\header{Adam A.S. }{Green}{adam.aagen.green@gmail.com}{(720)
+278-5986}{www.linkedin.com/in/adamasgreen}
+%\hspace*{-\parindent}
+%\begin{minipage}{0.75\textwidth}
+%    \begin{flushleft}
+%        \noindent {\huge \textbf{Adam A. S. Green}}\\
+%        adam.aagen.green@gmail.com -- (720) 278 5986\\
+%    \end{flushleft}
+%\end{minipage}
+%\name{ADAM A S GREEN\\[12pt]}     % the \\[12pt] adds a blank
+				        % line after name      
+
+%\address{Boulder, CO 80302\\(720) 278
+%5986, \\ linkedin.com/in/adamasgreen}
+%\address{\bf PERMANENT ADDRESS \\ 110 Brant Avenue \\  Upper Saddle
+%         River,   NJ 07458 \\  (201) 555-9509}
+                                  
+%\begin{document}
+
+\section*{Key Skills and Highlights}          
+\vspace{-.1in}
+\noindent \begin{tabular}{@{}l p{.8\textwidth}}\\
+        Programming& \textit{Python} (pandas, matplotlib, numpy,
+        scipy, trackpy, scikit-learn, PyTorch), \textit{FORTRAN} (lapack), \textit{Mathematica},
+    \textit{openFOAM}, \LaTeX, SQL, git\\ \\
+            Mathematics & Eigenvalue and eigenvector problems, Linear
+            algebra/tensor analysis,
+            Brownian/stochastic analysis and statistics, Perturbation
+            analysis, Electro-optic behaviour of soft matter systems,
+            Fourier analysis\\\\
+            %Communication & Skilled scientific writer and communicator, experienced
+    %interdisciplinary and international collaborator, mentorship and supervision
+    %of 4 undergraduate research students\\\\
+            Achievements & First place in 2017 NSF MRSEC Center \textit{Science Slam}
+    (3-minute scientific presentation competition), 4 peer-reviewed publications
+    in 4 distinct subfields, Poster presentation at the International Liquid
+    Crystal Conference, Mentorship and supervision of 4 undergraduate research students, Oral presentation at the Ferroelectric Liquid Crystal Conference
+\end{tabular}
+
+
+
+\section*{Education}          
+\vspace{-.1in}
+%\begin{tabbing}
+%    \hspace{2.3in}\=\hspace{2.6in}\=\kill
+   \noindent \textbf{Ph.D Physics}  University of Colorado Boulder \dotfill July 2019  \\        
+    \indent -{\itshape Liquid and Crystal: The Applicability of the XY Model to
+        Experimental Systems of Two-Dimensional Topological Fluids; and
+    Revealing the Nanoscale Structure of the Bent-Core Alpha Phase} \\
+    \vspace{-0.75em}
+    \phantom{.}\\
+\noindent\textbf{M.S. Physics} University of Colorado Boulder \dotfill  May 2015
+\\
+\vspace{-0.75em}
+    \phantom{.}\\
+
+\noindent\textbf{B.Sc. Physics Honours (First Class)} University of Calgary \dotfill May 2011   \\       
+\indent -{\itshape Improving the Efficiency of a Controlled Dipole Quantum
+    Memory}\\
+%\end{tabbing}
+
+ 
+\vspace{-0.2in}	
+\section*{Experience}
+ \vspace{-0.1in}	
+%\noindent \begin{tabular}{@{} p{.25\textwidth}@{\hspace{.01\textwidth}}
+%    p{.5\textwidth}@{\hspace{.03\textwidth}} p{.2\textwidth}}\\
+\noindent \begin{tabular}{@{} p{.25\textwidth}@{\hspace{.0\textwidth}}
+    p{.75\textwidth}}
+
+       %\hspace{2.3in}\=\hspace{3in}\= \kill % set up two tab positions
+       \textbf{Graduate Researcher} &University of Colorado Boulder, CO, USA
+       \dotfill 2015-2019\\
+       % \> University of Colorado, Boulder, CO\\
+   \end{tabular}\\
+   %\vspace{-20pt}      % suppress blank line after tabbing
+   %\hrule
+   \begin{tabular}{p{.2\textwidth} p{.76\textwidth}}
+     Fluid Dynamics  & {\itshape Applied machine learning techniques to
+         investigate the 2D fluid dynamics of freely-suspended liquid
+   crystals} \\
+   Materials Science&{\itshape Discovered two new phases of matter using
+    electro-optical, X-ray techniques} \\
+    Soft Matter& {\itshape Investigated the nucleation of topological
+defects in liquid crystal system using classical and machine learning methods}
+\end{tabular}
+
+    \vspace{10pt}
+\noindent \begin{tabular}{@{} p{.25\textwidth}@{\hspace{.0\textwidth}}
+    p{.75\textwidth}}
+%
+   %\hspace{2in}\= \hspace{3in}\= \kill % set up two tab positions
+       \textbf{Graduate Researcher} & NIST, Boulder, CO, USA \dotfill  2013-2015\\
+   %\>{\bf Boulder, CO}\\
+   \end{tabular}
+   %\vspace{-20pt}
+   %\hrule
+   \begin{tabular}{ p{.2\textwidth} p{.76\textwidth}}
+       Optics & {\itshape Designed and fabricated whispering gallery optical cavities for
+       laser frequency stabilization applications}
+    \end{tabular}
+
+    \vspace{10pt}
+\noindent \begin{tabular}{@{} p{.3\textwidth}@{\hspace{.0\textwidth}}
+    p{.7\textwidth}}
+   %\hspace{2in}\= \hspace{3in}\= \kill % set up two tab positions
+    \textbf{Undergraduate Researcher} &
+     University of Calgary, AB, CAN \dotfill  2007-2012\\
+   %\>{\bf Boulder, CO}\\
+   \end{tabular}
+   %\vspace{-20pt}
+   %\hrule
+   \begin{tabular}{ p{.2\textwidth} p{.79\textwidth}}
+       Quantum Optics & {\itshape Designed an optimally efficient optical
+       quantum memory}\\
+       Quantum Statistics & {\itshape Investigated statistical convergence
+       of bosonic and fermionic systems}\\
+       Complexity Science & {\itshape Studied the time and space correlations of
+       earthquake magnitudes}
+\end{tabular}
+
+\section*{Publications}
+\begin{itemize}
+    \item[] \bibentry{minor_end--end_2019}
+    \item[] \bibentry{green_gas_2019}
+    \item[] \bibentry{green_chiral_2019}
+    \item[] \bibentry{loh_dual-microcavity_2015}
+    \item[] \bibentry{heshami_controllable-dipole_2012}
+    \item[] \bibentry{davidsen_are_2011}
+\end{itemize}
+
+ \section*{Hobbies and Interests}          
+ \begin{itemize}
+     \item \textit{Birdwatching and Nature}--- the Front Range is rich in its
+         variety of ecosystems and native species, and it is a constant delight
+         to be out among them.
+     \item \textit{Board Games}--- Fellow graduate students introduced me
+         to the joys of gaming, my current favourite is Carcassonne.
+ \end{itemize}
+ 
+%\section{HONORS AND AWARDS}          
+%    Epsilon Delta Sigma: Honorary Management Society at          
+%    Rensselaer    \\      
+%    Dean's List of Distinguished Students: Fall 1986-Spring 1988  \\        
+%    National Honor Society: Northern Highlands High School  \\        
+%    Creative Essay Award: Northern Highlands High School  \\        
+%    Meritorious Action Life Saving Award: Boy Scouts of America          
+% 
+%\section{EXTRACURRICULAR ACTIVITIES}          
+%    Epsilon Delta Sigma Public Relations Committee \\         
+%    Rensselaer Ski Club     \\     
+%    Bergen County Task Force Student Liaison 1986  \\        
+%    LEADD (Legislators and Educators Against Drunk Driving) Chairman
+%     1985-86  \\        
+%    Youth Group - Temple Beth Or Activities Chairman 1985-86          
+% 
+\end{document}
